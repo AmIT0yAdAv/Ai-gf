@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GFAI143 - Couple Login</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h2>💑 Welcome to GFAI</h2>
+    <p class="subtitle">Sign in to start your love journey 💖</p>
+    <form onsubmit="login(event)">
+      <input type="text" id="partner1" placeholder="Partner 1 Name" required />
+      <input type="text" id="partner2" placeholder="Partner 2 Name" required />
+      <input type="password" id="password" placeholder="Secret Code" required />
+      <button type="submit">💌 Sign In</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
